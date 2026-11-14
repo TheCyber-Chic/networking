@@ -15,10 +15,10 @@ The network uses the private IPv4 address range `192.168.1.0/24`.
 
 | Device | IP address | Assignment |
 |---|---|---|
-| Router LAN interface | 192.168.1.1 | Static |
-| Server | 192.168.1.2 | Static |
-| Wired clients | 192.168.1.21 - 192.168.1.24 | DHCP |
-| Wireless clients | 192.168.1.25 – 192.168.1.30 | DHCP |
+| Router LAN interface | `192.168.1.1` | Static |
+| Server | `192.168.1.2` | Static |
+| Wired clients | `192.168.1.21` - `192.168.1.24` | DHCP |
+| Wireless clients | `192.168.1.25` – `192.168.1.30` | DHCP |
 
 **Subnet mask:** `255.255.255.0`
 
@@ -52,8 +52,8 @@ The following tests were performed:
 - **Wireless**: Confirmed successful wireless association and network access for the six wireless clients.
 
 ## <h3>Challenges and Troubleshooting</h3>
-**Router interface**: The router-to-switch link was initially down because the router interface was administratively disabled. This was resolved by enabling the interface.
-**Wireless interface requirement**: Packet Tracer required WPC300N wireless network interface modules for the desktop computers and laptops. The modules were installed through the devices' Physical tabs before establishing wireless connections.
+- **Router interface**: The router-to-switch link was initially down because the router interface was administratively disabled. This was resolved by enabling the interface.
+- **Wireless interface requirement**: Packet Tracer required WPC300N wireless network interface modules for the desktop computers and laptops. The modules were installed through the devices' Physical tabs before establishing wireless connections.
 
 ## <h3>Documentation</h3>
 - [Cisco Packet Tracer project file](small-office-network.pkt)
