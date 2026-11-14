@@ -3,4 +3,4 @@
 
 ## <h3>Projects</h3>
 - [Small Office Network Design and Implementation](small-office-network-lab/) - A simulated office network demonstrating wired and wireless connectivity, IP addressing, DHCP, DNS, HTTP, and network troubleshooting using Cisco Packet Tracer.
--  [VLANs and Inter-VLAN Routing](vlan-inter-vlan-routing-lab/) - A simulated departmental network demonstrating VLAN segmentation, router-on-a-stick inter-VLAN routing, subnetting, centralized DHCP and DNS services, and internal web hosting using Cisco Packet Tracer.
+-  [VLANs and Inter-VLAN Routing](vlans-and-inter-vlan-routing-lab/) - A simulated departmental network demonstrating VLAN segmentation, router-on-a-stick inter-VLAN routing, subnetting, centralized DHCP and DNS services, and internal web hosting using Cisco Packet Tracer.
