@@ -75,7 +75,7 @@ All tests were successful after troubleshooting the DNS configuration issue desc
   After correcting the address and renewing the DHCP leases in VLAN 30, DNS resolution and HTTP access worked successfully across all three VLANs.
 
 ## <h3>Project Files</h3>
-- [Cisco Packet Tracer Project File](vlan-and-inter-vlan-routing.pkt)
+- [Cisco Packet Tracer Project File](vlans-and-inter-vlan-routing.pkt)
 - [Screenshots of the network topology, configurations, and test results](assets/).
 
 <i>Environment: Cisco Packet Tracer 9.0.1</i>
