@@ -76,6 +76,6 @@ All tests were successful after troubleshooting the DNS configuration issue desc
 
 ## <h3>Project Files</h3>
 - [Cisco Packet Tracer Project File](vlans-and-inter-vlan-routing.pkt)
-- [Screenshots of the network topology, configurations, and test results](assets/).
+- [Screenshots](assets/) of the network topology, configurations, and test results.
 
 <i>Environment: Cisco Packet Tracer 9.0.1</i>
