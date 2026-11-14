@@ -1,7 +1,7 @@
 <h3>Small Office Network Design and Implementation</h3>
-<p>This project involved designing, configuring, and testing a simulated small-office Local Area Network (LAN) using Cisco Packet Tracer.
+<p>This project involved designing, configuring, and testing a simulated small-office LAN using Cisco Packet Tracer.
 
-The network supported wired and wireless connectivity, automatic IP address allocation, internal DNS resolution, and an HTTP-hosted company webpage.</p>
+The network supported wired and wireless connectivity, DHCP, internal DNS resolution, and an HTTP-hosted company webpage.</p>
 
 ## <h3>Network Design and Topology</h3>
 The network consists of a router, a Cisco 2960 switch, a server, and a wireless access point. It supports ten client devices: four wired desktop PCs, four wireless desktop PCs, and two wireless laptops.
@@ -36,7 +36,7 @@ The router was assigned `192.168.1.1` and configured as the DHCP server. Its DHC
 ## <h3>Server Configuration</h3>
 The server was assigned the static IP address `192.168.1.2` and configured to provide the following services:
 - **DNS**: The DNS service was enabled and configured with an A record mapping `www.office.local` to `192.168.1.2`, allowing clients to access the internal server using its hostname.
-- **HTTP**: The HTTP service was enabled, and the default webpage was customised to display an internal company webpage titled Welcome to Our Office Network.
+- **HTTP**: The HTTP service was enabled, and the default webpage was customised to display an internal company webpage.
 
 ## <h3>Wireless Configuration</h3>
 The access point was configured with the SSID `Office-WiFi` and WPA2-PSK security using AES encryption.
@@ -45,7 +45,7 @@ The wireless desktop computers and laptops required **WPC300N** wireless network
 
 ## <h3>Testing and Verification</h3>
 The following tests were performed:
-- **DHCP**: Verified the allocated client addresses, DHCP pool utilisation, and absence of detected IP address conflicts.
+- **DHCP**: Verified the allocated client addresses, DHCP pool utilisation, and absence of IP address conflicts.
 - **Connectivity**: Wired and wireless clients successfully communicated with the default gateway, server, and other client devices.
 - **DNS**: Confirmed that `www.office.local` successfully resolved to `192.168.1.2`.
 - **HTTP**: Accessed the internal webpage at `http://www.office.local`.
